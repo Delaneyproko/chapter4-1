@@ -4,10 +4,7 @@ body {
     font-size: 100%;
 }
 
-/* mouse over link */
-link {
-	font-style: italic;
-}
+
 
 /* the styles for the header */
 header img {
@@ -22,7 +19,9 @@ header h3 {
 	font-size: 130%;
 	font-style: italic;
 	text-indent: 30px;
-	text-shadow: #800000;
+}
+header em {
+	text-shadow: 2px 2px 8px #800000;
 }
 
 /* the styles for the section */
@@ -40,6 +39,10 @@ main h3 {
 	font-size: 105%;
 }
 
+/* mouse over link */
+section a: link {
+	font-style: italic;
+}
 
 /* the styles for the footer */
 footer p {
